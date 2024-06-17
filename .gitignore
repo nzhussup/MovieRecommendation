@@ -1,3 +1,10 @@
+/data
+.DS_Store
+model.pkl
+/toignore
+/model
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
