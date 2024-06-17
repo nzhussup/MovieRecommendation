@@ -1,0 +1,6 @@
+streamlit
+pandas
+pickle
+zipfile
+collections
+logging

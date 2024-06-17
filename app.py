@@ -4,7 +4,6 @@ import pickle
 import zipfile
 from collections import defaultdict
 import logging
-import os
 
 # Setup logging
 logging.basicConfig(level=logging.INFO)
