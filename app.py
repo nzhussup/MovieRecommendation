@@ -11,7 +11,8 @@ logger = logging.getLogger(__name__)
 
 # Load the movie data
 columns = ["movieid", "title", "genre"]
-movies_df = pd.read_table("./movies.dat", names=columns, sep="::", encoding="latin1", engine="python")
+movies_df = pd.read_csv("movies.csv")
+movies_df.columns = columns
 
 # Extract movie titles and create a lookup for movie IDs
 movie_titles = movies_df['title'].tolist()
