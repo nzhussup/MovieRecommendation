@@ -4,3 +4,4 @@ pickle
 zipfile
 collections
 logging
+surprise
