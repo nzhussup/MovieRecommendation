@@ -4,4 +4,4 @@ pickle
 zipfile
 collections
 logging
-surprise
+scikit-surprise
